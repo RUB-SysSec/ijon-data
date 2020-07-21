@@ -20,7 +20,7 @@ std::list<ConfigurationOption*> Configuration::configurationOptions = {
  * Whether audio is enabled or not.
  */
 BasicConfigurationOption<bool> Configuration::audioEnabled(
-    "audio.enabled", true
+    "audio.enabled", false
 );
 
 /**
